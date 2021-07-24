@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+}
+
+
 .page1 .topbar .topright .fas{
     display: none;
     cursor: pointer;
@@ -43,6 +48,8 @@
 
 
 @media only screen and (max-width: 1250px) {
+
+
     .page1 .topbar .topright .fas{
         display: inline-block;
     }
@@ -124,7 +131,7 @@
 
 
     .page5{
-        height: 770px;
+        /* height: 770px; */
     }
     .page5 .page5-container .page5-headding{
         margin: 0 10%;
@@ -148,7 +155,7 @@
 }
 
 
-@media only screen and (max-width: 800px) and (min-width:501px){
+@media only screen and (max-width: 800px){
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
     /* .page1 .first_content .firstdata #date {
         font-size: 22px;
@@ -159,7 +166,9 @@
     .page1 .first_content .firstdata span button{
         font-size: 17px;
     } */
-
+.topbar{
+    /* display: none; */
+}
 
     .page2{
         margin-bottom: 30px;
@@ -243,6 +252,9 @@
 
 
 
+    .page5{
+        padding-bottom: 70px;
+    }
     .page5-container .logo {
         padding: 0%;
     }
@@ -283,6 +295,7 @@
     }
     .topbar{
         height: 75px;
+        width: 100%;
     }
     .page1 #bar.active{
         top: 75px;
@@ -291,10 +304,6 @@
         width: 100%;
         
         box-sizing: border-box;
-    }
-    .topbar nav {
-        /* margin: 0 3%; */
-        padding: 0 8%;
     }
     .topbar img {
         width: 125px;
@@ -430,6 +439,11 @@
     .page5-container .logo {
         padding: 0%;
     }
+    .page5-container .logo img{
+        height: 77px;
+        width: 147px;
+        padding: 20px 20px;
+    }
 
 
     .page6 .page6-content .content h3{
@@ -469,8 +483,5 @@
         padding-bottom: 9px;
         height: 22px;
     }
-    .page5-container .logo img{
-        height: 92px;
-        width: 192px;
-    }
+    
 }

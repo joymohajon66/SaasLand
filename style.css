@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 .pages{
     /* height: 5846px; */
@@ -474,7 +474,7 @@
     padding-bottom: 50px;
 }
 .page4-content .part .content #read-more{
-    font-size: 1.2em;
+    font-size: 1em;
     border: 1px solid #23b1fe;
     width: 100px;
     text-align: center;
@@ -492,12 +492,13 @@
 
 .page5{
     background-color: rgb(251, 252, 255);
-    height: 600px;
-    width: 100%;
+    /* height: 600px; */
+    /* width: 100%; */
+    padding-bottom: 70px;
 }
 .page5 .page5-container{
-    height: 600px;
-    width: 100%;
+    /* height: 600px; */
+    /* width: 100%; */
 }
 .page5 .page5-container .page5-headding{
     margin: 0 25%;
